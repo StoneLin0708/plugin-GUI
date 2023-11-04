@@ -164,9 +164,9 @@ class StreamSettings
 
 public:
 
-	StreamSettings<T>() { }
+	StreamSettings() { }
 
-	~StreamSettings<T>() { }
+	~StreamSettings() { }
 
 	void update(Array<const DataStream*> streams)
 	{
